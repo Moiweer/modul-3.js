@@ -78,10 +78,86 @@
     // квадратних дужках, тобто те що в дужках
     // - це значення змінної
 
-const inputName = "color1234566";
-const inputValue = "tomato";
+// const inputName = "color1234566";
+// const inputValue = "tomato";
 
-const colorPickerData = {
-    [inputName]: inputValue,
-};
-console.log(colorPickerData);
+// const colorPickerData = {
+//     [inputName]: inputValue,
+// };
+// console.log(colorPickerData);
+
+
+
+
+// деструктуризация
+// const rgb = [200, 255, 100];
+// const [red, green, blue] = rgb;
+
+// console.log(`R:${red},G:${green},B:${blue}`); // "R:200,G:255,B:100"
+
+// Патерн
+
+// ✅ Все зрозуміло
+// doStuffWithBook({
+//   title: "The Last Kingdom",
+//   numberOfPages: 736,
+//   downloads: 10283,
+//   rating: 8.38,
+//   isPublic: true,
+// });
+
+// 1)
+// function doStuffWithBook(book) {
+//   const { title, numberOfPages, downloads, rating, isPublic } = book;
+//   console.log(title);
+//   console.log(numberOfPages);
+//   // І так далі
+// }
+
+
+// або 2)
+// function doStuffWithBook({
+//   title,
+//   numberOfPages,
+//   downloads,
+//   rating,
+//   isPublic,
+// }) {
+//   console.log(title);
+//   console.log(numberOfPages);
+//   // І так далі
+// }
+
+
+
+
+// const user = {
+//   name: "Jacques Gluke",
+//   tag: "jgluke",
+//   location: {
+//     country: "Jamaica",
+//     city: "Ocho Rios",
+//   },
+//   hobbies: ["swiming", "music", "sci-fi"],
+// };
+
+
+// const hobbies = user.hobbies;
+// console.log(hobbies); // ["swiming", "music", "sci-fi"]
+
+
+
+// перебір через for масиву
+
+// const feedback = {
+//         good: 5,
+//         neutral: 10,
+//         bad: 3,
+// };
+    
+// const keys = Object.keys(feedback);
+// console.log(keys);
+// for (const key of keys) {
+//     console.log(key);
+//     console.log(feedback[key]);
+// }
