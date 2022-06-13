@@ -135,3 +135,51 @@
 //   // Change code above this line
 // }
 
+// 12
+// function countProps(object) {
+//   let propCount = 0;
+// for (const prop in object)
+// if (object.hasOwnProperty(prop)){
+//   propCount +=1;
+// }
+//   return propCount;
+// }
+
+
+
+// 13
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// const keys = Object.keys (apartment);
+// for (const key of keys){
+//   values.push(apartment[key]);
+//  console.log(apartment[key]);
+//   console.log(keys);
+  
+// }
+
+// 14
+
+// function countProps(object) {
+ 
+//   let propCount = [];
+
+//   const keys = Object.keys(object);
+
+//   for (const key of keys) {
+//       propCount.push(object[keys]);
+//   }
+
+//   return propCount.length;
+
+// }
+
+
+// 15
+
+
