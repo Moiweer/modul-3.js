@@ -183,3 +183,172 @@
 // 15
 
 
+// 17
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+
+// const rgbColors = [];
+
+// for (const color of colors){
+//   const values = Object.values(color);
+//  hexColors.push(values[0]);
+//  rgbColors.push(values[1]);
+
+// }
+
+
+
+// 18
+
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   for (const key of products) {
+//     if (productName === key.name) {
+//     return key.price;
+//     }
+  
+//   }return null;
+//   }
+
+// 19
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//  const propValues = [];
+ 
+//  for ( const product of products){
+
+//      if (product[propName]) {
+//          propValues.push(product[propName]);
+// }
+//  } return propValues;
+
+ 
+// }
+// console.log(getAllPropValues("name"));
+
+
+// 20
+
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   let totalPrice = 0;
+// for (const product of products) {
+//     if (productName === product.name) {
+//       totalPrice = product.quantity * product.price;
+    
+//     }
+// }return totalPrice;
+// }
+
+
+// // 21
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const {yesterday, today, tomorrow} = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// // 22
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const {yesterday, today, tomorrow, icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"} = highTemperatures;
+
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+
+// 23
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+ 
+// };
+// const {yesterday: highYesterday, today: highToday, tomorrow: highTomorrow, icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"} = highTemperatures;
+
+
+// // Change code above this line
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+
+// 24
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+
+// for (const  { hex, rgb }  of colors) {
+    
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
+
+// console.log(rgbColors)
+
+
+// 25
+
+
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+// const { today: {low: lowToday, high: highToday, icon: todayIcon = "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg" }, tomorrow: {low: lowTomorrow, high: highTomorrow, icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"}} = forecast;
+
+// 26
+
+// // Change code below this line
+// function calculateMeanTemperature(forecast) {
+//   const {today: {low:todayLow, high: todayHigh}, tomorrow:{low: tomorrowLow, high:tomorrowHigh}} = forecast;
+
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
+// 27
+
