@@ -352,3 +352,64 @@
 
 // 27
 
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+// console.log(Math.max(...scores));
+// console.log(Math.min(...scores));
+
+// 28
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+// const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+// 29
+
+// const defaultSettings = {
+//    theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = {...defaultSettings, ...overrideSettings};
+
+// 30
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+// return { category: "General", priority: "Normal", ...data, completed: false }
+// }
+
+
+// console.log(makeTask({ category: "Finance", text: "Take interest" }));
+
+// 31
+
+
+// function add(...args) {
+//   // Change code above this line
+//   let total = 0;
+//   for (let argument of arguments){
+//     total += argument;
+    
+//   }return total;
+// }
+
+// 32
+
