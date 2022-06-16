@@ -413,3 +413,73 @@
 
 // 32
 
+// Change code below this line
+// function addOverNum(firstNumber, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > firstNumber) {
+
+//     total += arg;
+//   }
+//   }
+//   return total;
+//   }
+
+// 33
+
+
+// Change code below this line
+// function findMatches(aray, ...args) {
+//   const matches = []; 
+
+//   for (let arg of args){
+//     if (aray.includes(arg)) {
+//       matches.push(arg);
+//     }
+
+//   }
+//   return matches;
+// }
+
+// 34
+
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName){
+//     return `Deleting book ${bookName}`
+
+//   },
+//   updateBook(oldName, newName){
+//     return `Updating book ${oldName} to ${newName}`
+//   }
+// };
+
+// 35
+
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     const bookIndex = this.books.indexOf(oldName);
+//     this.books.splice(bookIndex, 1, newName);
+//   },
+// };
+
+// 36
+
+// const atTheOldToad = {
+// potions: [],
+
+// };
+
+// console.log(atTheOldToad.potions);
+
+// 37
+

@@ -161,3 +161,78 @@
 //     console.log(key);
 //     console.log(feedback[key]);
 // }
+
+
+
+// Деструктуризация масиву
+
+const rgb = [255, 100, 80];
+
+const [red, green, blue] = rgb;
+
+
+
+// keys values entries
+// values - знаходить серед значень
+// const authors = {
+//     kiwi: 4,
+//     poly: 7,
+//     ajax: 9,
+//     mango: 6,
+// };
+
+// const ratings = Object.values(authors);
+// console.log(Math.max(...ratings));
+
+// keys - знаходить серед ключів
+
+// const authors = {
+//     kiwi: 4,
+//     poly: 7,
+//     ajax: 9,
+//     mango: 6,
+// };
+
+// const ratings = Object.keys(authors);
+// for (const key of keys) {
+//     console.log(key);
+//     console.log(authors[key]);
+// }
+
+
+
+// entries - знаходить і ключі і значення/
+// повертає масив масивів (Репета модуль3 2 відео 1:00)
+// const authors = {
+//     kiwi: 4,
+//     poly: 7,
+//     ajax: 9,
+//     mango: 6,
+// };
+
+// const ratings = Object.entries(authors);
+// for (const entry of entries) {
+//     console.log(entry);
+//     const name = entry[0];
+//     const rating = entry[1];
+//     console.log(name, rating);
+// }
+
+// або можна записати так:
+
+// for (const entry of entries) {
+//     const [name, raiting] = entry;
+//     console.log(name, rating);
+// }
+
+// або самий сучасний запис:
+// for (const [name, raiting] of entries) {
+//     
+//     console.log(name, rating);
+// }
+
+
+
+
+
+приклад додавання фруктів в кошик (Репета, модуль 3, друге відео ~ 1:33)
