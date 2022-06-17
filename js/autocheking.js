@@ -538,48 +538,48 @@
 // 41
 
 
-const atTheOldToad = {
-  potions: [
-    { name: "Speed potion", price: 460 },
-    { name: "Dragon breath", price: 780 },
-    { name: "Stone skin", price: 520 },
-  ],
-  // Change code below this line
-  getPotions() {
-    return this.potions;
-  },
-  addPotion(newPotion) {
-        for (let potion of this.potions) {
-          if (potion.name === newPotion.name){
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//         for (let potion of this.potions) {
+//           if (potion.name === newPotion.name){
     
-      return `Error! Potion ${newPotion.name} is already in your inventory!`;
-    }
-  }
-     this.potions.push(newPotion);
+//       return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//     }
+//   }
+//      this.potions.push(newPotion);
    
-  },
-  removePotion(potionName) { 
-      for (let potion of this.potions) {
- const potionIndex = this.potions.indexOf(potion);
-          if (potion.name === potionName) {
-              this.potions.splice(potionIndex, 1);
-          }
+//   },
+//   removePotion(potionName) { 
+//       for (let potion of this.potions) {
+//  const potionIndex = this.potions.indexOf(potion);
+//           if (potion.name === potionName) {
+//               this.potions.splice(potionIndex, 1);
+//           }
       
-      }
-  return `Potion ${potionName} is not in inventory!`;
-  },
-      updatePotionName(oldName, newName) {
-        for (const potion of this.potions) {
+//       }
+//   return `Potion ${potionName} is not in inventory!`;
+//   },
+//       updatePotionName(oldName, newName) {
+//         for (const potion of this.potions) {
 
-            if (potion.name === oldName) {
-                potion.name = newName;
+//             if (potion.name === oldName) {
+//                 potion.name = newName;
      
-            }
-        }
-         return `Potion ${oldName} is not in inventory!`;
+//             }
+//         }
+//          return `Potion ${oldName} is not in inventory!`;
     
-  },
-};
-console.log(atTheOldToad.getPotions());
-console.log(atTheOldToad.addPotion({ name: "Invisibility", price: 620 }));
+//   },
+// };
+// console.log(atTheOldToad.getPotions());
+// console.log(atTheOldToad.addPotion({ name: "Invisibility", price: 620 }));
 
